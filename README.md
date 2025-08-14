@@ -29,18 +29,21 @@ A modern, interactive web application to explore GitHub profiles with beautiful 
 
 ## 🚀 Live Demo
 
-[🌐 Try it Live](https://your-username.github.io/github-profile-explorer)
+[🌐 Try it Live](https://Astrother26.github.io/GitHub-Profile-Dashboard-Project)
 
 ## 📸 Screenshots
 
 ### Dashboard Overview
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](<img width="1901" height="918" alt="image" src="https://github.com/user-attachments/assets/3427df96-3445-4ba1-b8d4-f8755357c767" />
+)
 
 ### Profile Statistics
-![Profile Stats](screenshots/profile-stats.png)
+![Profile Stats](<img width="1819" height="702" alt="image" src="https://github.com/user-attachments/assets/cef8a842-0e0c-4e7f-ac96-bb52dc1ca58b" />
+)
 
 ### Interactive Charts
-![Charts](screenshots/charts.png)
+![Charts](<img width="1791" height="806" alt="image" src="https://github.com/user-attachments/assets/28a46314-f392-4ec1-8715-c8a6fc47458f" />
+)
 
 ## 🛠️ Installation
 
@@ -160,10 +163,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - [ ] User search with autocomplete
 - [ ] Dark/Light theme toggle
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **GitHub API** for providing comprehensive developer data
@@ -180,9 +179,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Connect
 
-- **GitHub:** [@your-username](https://github.com/your-username)
-- **Portfolio:** [your-website.com](https://your-website.com)
-- **LinkedIn:** [Your Name](https://linkedin.com/in/your-profile)
+- **GitHub:** [@your-username](https://github.com/Astrother26)
+- **LinkedIn:** [Your Name](https://www.linkedin.com/in/shrija-yadav-bb1980257)
 
 ---
 
