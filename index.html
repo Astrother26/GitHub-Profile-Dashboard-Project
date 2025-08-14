@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Explorer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>GitHub Profile Explorer</h1>
+            <p>Discover amazing developers and their journey through interactive visualizations</p>
+            
+            <div class="search-container">
+                <input type="text" class="search-input" id="usernameInput" placeholder="Enter GitHub username...">
+                <button class="search-btn" id="searchBtn">🔍 Explore</button>
+            </div>
+        </div>
+
+        <div id="loadingDiv" class="loading hidden">
+            <div>🔄 Loading profile data...</div>
+        </div>
+
+        <div id="errorDiv" class="error hidden"></div>
+
+        <div id="profileSection" class="hidden">
+            <div class="profile-container">
+                <div class="profile-card">
+                    <img id="profileImage" class="profile-image" src="" alt="Profile">
+                    <h2 id="profileName"></h2>
+                    <p id="profileBio"></p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number" id="repoCount">0</div>
+                            <div>Repositories</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" id="followerCount">0</div>
+                            <div>Followers</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" id="followingCount">0</div>
+                            <div>Following</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" id="gistCount">0</div>
+                            <div>Gists</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-container">
+                    <h3 class="chart-title">🕒 Recent Activity Timeline</h3>
+                    <div id="timelineContent"></div>
+                </div>
+            </div>
+
+            <div class="dashboard-grid">
+                <div class="chart-container">
+                    <h3 class="chart-title">🎨 Languages Used</h3>
+                    <canvas id="languageChart"></canvas>
+                </div>
+
+                <div class="chart-container">
+                    <h3 class="chart-title">⭐ Repository Stars & Forks</h3>
+                    <canvas id="repoStatsChart"></canvas>
+                </div>
+
+                <div class="chart-container">
+                    <h3 class="chart-title">📈 Repository Growth Over Time</h3>
+                    <canvas id="growthChart"></canvas>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <h3 class="chart-title">📚 Top Repositories</h3>
+                <div id="reposGrid" class="repos-grid"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- External Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"></script>
+    
+    <!-- Custom Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
