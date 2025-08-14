@@ -27,23 +27,18 @@ A modern, interactive web application to explore GitHub profiles with beautiful 
 - **Responsive Design** - Works perfectly on desktop, tablet, and mobile
 - **Smooth Animations** - Engaging hover effects and transitions
 
-## 🚀 Live Demo
-
-[🌐 Try it Live](https://Astrother26.github.io/GitHub-Profile-Dashboard-Project)
 
 ## 📸 Screenshots
 
 ### Dashboard Overview
-![Dashboard](<img width="1901" height="918" alt="image" src="https://github.com/user-attachments/assets/3427df96-3445-4ba1-b8d4-f8755357c767" />
-)
+<img width="1901" height="918" alt="Dashboard" src="https://github.com/user-attachments/assets/3427df96-3445-4ba1-b8d4-f8755357c767" />
 
 ### Profile Statistics
-![Profile Stats](<img width="1819" height="702" alt="image" src="https://github.com/user-attachments/assets/cef8a842-0e0c-4e7f-ac96-bb52dc1ca58b" />
-)
+<img width="1819" height="702" alt="Profile Stats" src="https://github.com/user-attachments/assets/cef8a842-0e0c-4e7f-ac96-bb52dc1ca58b" />
 
 ### Interactive Charts
-![Charts](<img width="1791" height="806" alt="image" src="https://github.com/user-attachments/assets/28a46314-f392-4ec1-8715-c8a6fc47458f" />
-)
+<img width="1791" height="806" alt="Charts" src="https://github.com/user-attachments/assets/28a46314-f392-4ec1-8715-c8a6fc47458f" />
+
 
 ## 🛠️ Installation
 
